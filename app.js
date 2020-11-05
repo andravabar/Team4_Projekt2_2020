@@ -1,8 +1,33 @@
 let currentclass = 3148
 let input = document.getElementById('myInput');
 let currentweek = 9
+let currentday = 0
 const arrow_forward = document.getElementById('arrow_forward')
 const classContainer = document.getElementById('root')
+const eBox = document.getElementById('E')
+const tBox = document.getElementById('T')
+const kBox = document.getElementById('K')
+const nBox = document.getElementById('N')
+const rBox = document.getElementById('R')
+var days = ["Pühapäev", "Esmaspäev", "Teisipäev", "Kolmapäev", "Neljapäev", "Reede", "Laupäev"];
+
+
+
+function scrolltoE() {
+    eBox.scrollIntoView(true);
+}
+function scrolltoT() {
+    tBox.scrollIntoView(true);
+}
+function scrolltoK() {
+    kBox.scrollIntoView(true);
+}
+function scrolltoN() {
+    nBox.scrollIntoView(true);
+}
+function scrolltoR() {
+    rBox.scrollIntoView(true);
+}
 
 
 function nextWeek() {
@@ -26,11 +51,21 @@ function getinfo() {
             //teeb tunnid
             classes = data.timetableEvents
             classes.forEach(currentData => {
+
                 console.log(currentData)
+                date = new Date(currentData.date)
+                currentDate = new Date()
+                currentHour = currentDate.getHours():
+
+                dateDay = date.getDay()
                 let titleDiv = document.createElement('div')
                 titleDiv.innerHTML = ""
+                if (currentday != dateDay) {
+                    currentday = dateDay
+                    classContainer.append(days[dateDay])
+                }
                 titleDiv.className = "container"
-                titleDiv.innerHTML = '<div class="classtime">' + currentData.timeStart + ' - ' + currentData.timeEnd + '</div>' + '<div class="classname">' + currentData.nameEn + '</div>' + '<div class="classteacher">' + currentData.teachers[0].name + '</div>'
+                titleDiv.innerHTML = '<div class="info">' + '<div class="classtime">' + currentData.timeStart + ' - ' + currentData.timeEnd + '</div>' + '<div class="classname">' + currentData.nameEn + '</div>' + '<div class="classteacher">' + currentData.teachers[0].name + '</div>' + '</div>'
                 classContainer.append(titleDiv)
             });
 
@@ -61,3 +96,8 @@ function search() {
 
 search();
 getinfo();
+
+function dateCalc(classStart, classEnd) {
+
+
+}
