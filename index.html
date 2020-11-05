@@ -7,23 +7,25 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <div class="flex-container">
+    <div class="flex-container" style="font-family: Nunito Sans; font-style: normal; font-weight: normal;">
         <div>E</div>
         <div>T</div>
         <div>K</div>
         <div>N</div>
         <div>R</div>
-    </div> 
+    </div>
+    <div class="kast" id="root" style="font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;">
+    </div>
 
-    <div id="selectDiv"></div>
-    <div class="kast" id="root"> </div>
 
-    <script src="app.js"></script>
-  
     <div class="header">
         <div class="weekselect"><a href="#"><i class="material-icons">arrow_back</i></a>
             Nädal | 02.11 - 06.11
@@ -33,21 +35,30 @@
         <div class="calendar"><a href="#"><i class="material-icons">date_range</i></a></div>
     </div>
 
-    
+    <div id="selectDiv"></div>
+    <input type="text" id="myInput" onkeyup="search()" placeholder="Search for names..">
+
+
+
+
 
 
    
         
-    <footer class="footer-text">Vaate nimetus (Klass)
-        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Empty_Star.svg" style="width: 40px; height: 40px;">
-        <a href="#">
+        <footer class="footer-text">Vaate nimetus (Klass)
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Empty_Star.svg"
+            style="width: 40px; height: 40px;">
+            <a href="#">
 
-            <img src="https://img.icons8.com/metro/26/000000/search.png"/>
-        </a>
-    </footer>
-    
-  
+                <img src="https://img.icons8.com/metro/26/000000/search.png" />
+            </a>
+        </footer>
 
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
