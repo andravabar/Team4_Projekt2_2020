@@ -53,9 +53,11 @@ function getinfo() {
             classes.forEach(currentData => {
 
                 console.log(currentData)
+
                 date = new Date(currentData.date)
                 currentDate = new Date()
-                currentHour = currentDate.getHours():
+
+
 
                 dateDay = date.getDay()
                 let titleDiv = document.createElement('div')
@@ -67,13 +69,23 @@ function getinfo() {
                 titleDiv.className = "container"
                 titleDiv.innerHTML = '<div class="info">' + '<div class="classtime">' + currentData.timeStart + ' - ' + currentData.timeEnd + '</div>' + '<div class="classname">' + currentData.nameEn + '</div>' + '<div class="classteacher">' + currentData.teachers[0].name + '</div>' + '</div>'
                 classContainer.append(titleDiv)
+                classStart = (currentData.date.split("T")[0] + "T" + currentData.timeStart)
+                classEnd = (currentData.date.split("T")[0] + "T" + currentData.timeEnd)
+                console.log(classStart, classEnd)
+
+                if (currentDate > classStart && currentDate < classEnd) {
+                    titleDiv.style.background = "yellow";
+                }
+
+
+
             });
 
         });
 }
 
 function search() {
-    fetch('https://be.ta19heinsoo.itmajakas.ee/api/teachers/')
+    fetch('https://be.ta19heinsoo.itmajakas.ee/api/teachers')
         .then((response) => {
             return response.json()
         })
