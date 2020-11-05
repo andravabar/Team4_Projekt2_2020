@@ -11,11 +11,11 @@
 
 <body>
 
-    <div id="selectDiv"></div>
-    <div id="root"> </div>
+    <div id="root">
+    </div>
 
-    <script src="app.js"></script>
-  
+
+
     <div class="header">
         <div class="weekselect"><a href="#"><i class="material-icons">arrow_back</i></a>
             Nädal | 02.11 - 06.11
@@ -25,18 +25,26 @@
         <div class="calendar"><a href="#"><i class="material-icons">date_range</i></a></div>
     </div>
 
+    <div id="selectDiv"></div>
+    <input type="text" id="myInput" onkeyup="search()" placeholder="Search for names..">
+
     <div class="flex-container">
         <div>E</div>
         <div>T</div>
         <div>K</div>
         <div>N</div>
         <div>R</div>
-    </div> 
+    </div>
 
 
     <div class="foot">
-    <footer class="footer-text">Vaate nimetus (Klass)</footer>
+        <footer class="footer-text">Vaate nimetus (Klass)</footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+    <script src="app.js"></script>
+
+
+
 
 </body>
 
