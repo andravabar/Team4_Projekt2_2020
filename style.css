@@ -58,6 +58,7 @@
   align-items: center;
   border-radius:50px;
   border-color: black;
+  justify-content: center;
 }
 
 .flex-container > div {
@@ -81,3 +82,7 @@
   text-align: center;
 }
 
+.kast {
+    width: 500px;
+    margin: auto;
+}
