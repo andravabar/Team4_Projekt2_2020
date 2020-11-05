@@ -2,10 +2,11 @@
 .container{
     display: flex;
     flex-direction: column;
-
-
-    border: solid;
+    background: #66ccff;
+    padding: 10px;
     margin: 5px;
+    border-radius: 7px;
+    height: 50px;
 }
 #root{
 
@@ -18,7 +19,7 @@
 
 .header {
     display: flex;
-    background-color: bisque;
+    background-color: rgb(224, 180, 113);
     height: 32px;
     align-items: center;
     justify-content: space-between;
@@ -58,6 +59,7 @@
   align-items: center;
   border-radius:50px;
   border-color: black;
+  justify-content: center;
 }
 
 .flex-container > div {
@@ -80,4 +82,11 @@
   color: white;
   text-align: center;
 }
+
+.kast {
+    width: 300px;
+    margin: auto;
+    
+}
+
 
