@@ -1,5 +1,5 @@
 let currentclass = 3148
-
+let input = document.getElementById('myInput');
 
 
 function getinfo() {
@@ -8,36 +8,46 @@ function getinfo() {
             return response.json()
         })
         .then((data) => {
-            // klassi valik
-            const selectContainer = document.getElementById('selectDiv')
-            selectContainer.innerHTML = '<select id="classSelect"></select>'
-
-
-
-
-
-
-
-
-
-
             //teeb tunnid
             const classContainer = document.getElementById('root')
-            console.log(data)
             classes = data.timetableEvents
             classes.forEach(currentData => {
-
                 let titleDiv = document.createElement('div')
                 titleDiv.className = "container"
                 titleDiv.innerHTML = '<div class="title">' + currentData.nameEn + '</div>' + currentData.timeStart + ' - ' + currentData.timeEnd + '</div>'
                 classContainer.append(titleDiv)
 
+
             });
-
-
-
 
         });
 }
+function search() {
+    fetch('http://be.ta19heinsoo.itmajakas.ee/api/teachers/')
+        .then((response) => {
+            return response.json()
+        })
+        .then((data) => {
+            console.log(data)
+            fname = data.FirstName
 
-getinfo()
+
+
+            const options = {
+                includeScore: true,
+                // Search in `author` and in `tags` array
+                keys: ['author', 'tags']
+            }
+
+            const fuse = new Fuse(data, options)
+
+            const result = fuse.search(input)
+            console.log(result)
+
+
+        });
+};
+
+
+search();
+getinfo();
