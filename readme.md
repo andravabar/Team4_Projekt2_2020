@@ -60,7 +60,7 @@ Figma puhul oli eesmärk tundma õppida selle programmi funktsionaalsust ning ka
 **Andra Vabar:**
 1. Ei oleks tahtnud, Figma sobis hästi.
 2. Läbi selle projekti sai taaskord kogetud, mis tähendab koostöö ja seda nii suuremas kui väiksemas tiimis.
-3. Figma tehnilised nüansid
+3. Figma tehnilised nüansid, Githubis uue Repository ja projekti loomine, Teamsis uue tiimi loomine
 
 **Kevin Rull:**
 1. 
