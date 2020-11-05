@@ -29,7 +29,7 @@ Meie tiim **"Team4_Projekt2_2020"** koosnes kolmest eraldi väikesest tiimist: F
  - **_Tiimi liige:_** Kaarel Kallas TAK-20
  
  
-**Github admin:** Andra Vabar TA-20  
+**Github admins:** Erkki Tambaum, Robin Kukk, Andra Vabar
 
 
 ## Kust me pärit oleme?
@@ -41,8 +41,8 @@ Our speciality is software developer.
 ​
 Our goal is to upgrade the commonly used timetable of TAHVEL which has many disadvantages in terms of user-friendlyness, design, and functionality. The purpose of the project is to develop a better version of the TAHVEL, which would work both in the mobile device and desktop.
 
-##Lingid
+## Lingid
 ​
 [Figma](https://www.figma.com/file/NFHuAEc0CIifLXgy5Ux3En/tahvel2.0?node-id=0%3A1)
-https://ta19rauniste.itmajakas.ee/SeeTiim/index.html
+
 
