@@ -1,7 +1,7 @@
 # TAHVLI tunniplaan
 #### 2020∕21 projekt nr 2 "TAHVLI tunniplaan" toimus ajavahemikul 04.11 - 06.11.2020.
 
-## Our team
+## Meie tiim
 
 **Projektijuht:**    Robin Kukk TA-19 
 
