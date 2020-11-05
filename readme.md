@@ -44,7 +44,7 @@ Figma puhul oli eesmärk tundma õppida selle programmi funktsionaalsust ning ka
 
 ## Lingid
 ​
-[Figma](https://www.figma.com/file/WhXNiN3nXtIKmYVmWk4ear/TA-Projekt__20-2__Tunniplaan-wireframe?node-id=6%3A18)
-[Zone server] ()
+ - [Figma](https://www.figma.com/file/WhXNiN3nXtIKmYVmWk4ear/TA-Projekt__20-2__Tunniplaan-wireframe?node-id=6%3A18)
+ - [Zone server] ()
 
 
