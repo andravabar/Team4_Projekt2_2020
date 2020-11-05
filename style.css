@@ -1,39 +1,19 @@
-* {
-    margin: 0;
-    padding: 0;
-    }
 
-.header {
-    display: flex;
-    background-color: bisque;
-    height: 32px;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    width: 100%;
-    top: 0;
-
-
-}
-.weekselect , .weekselect i {
-    margin-left: 10px;
-
-    align-items: center;
-    vertical-align: middle;
+.otsi {
+    font-size: 50px;
+    text-align: center;
 }
 
-.calendar {
+.search {
+    margin: auto;
+    display: block;
+    width: 250px;
+    height: 35px;
+}
+.kast {
+    height: 80px;
+    width: 300px;
+    border-style: solid;
+    margin: 20px;
+}
 
-    margin-right: 10px;
-
-}
-.lisa {
-    color: blanchedalmond;
-    background-color: black
-}
-.sisukast {
-    margin-top: 32px;
-    padding: 3%;
-    height: 1000px;
-    background-color: brown;
-}
