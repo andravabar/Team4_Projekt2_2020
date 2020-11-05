@@ -47,4 +47,58 @@ Figma puhul oli eesmärk tundma õppida selle programmi funktsionaalsust ning ka
  - [Figma](https://www.figma.com/file/WhXNiN3nXtIKmYVmWk4ear/TA-Projekt__20-2__Tunniplaan-wireframe?node-id=6%3A18)
  - [Zone server] ()
 
+## Küsimused projekti kohta
+ - Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas
+ - Üks pehme oskus, mida õppisin ja endas arendasin
+ - Üks tehniline oskus, mida õppisin ja endas arendasin
+
+**Robin Kukk:**
+1. 
+2. 
+3. 
+
+**Andra Vabar:**
+1. Ei oleks tahtnud, Figma sobis hästi.
+2. Läbi selle projekti sai taaskord kogetud, mis tähendab koostöö ja seda nii suuremas kui väiksemas tiimis.
+3. Figma tehnilised nüansid
+
+**Kevin Rull:**
+1. 
+2. 
+3. 
+
+**Marcus Riisik:**
+1. 
+2. 
+3. 
+
+**Erkki Tambaum:**
+1. 
+2. 
+3. 
+
+**Andrus Pajuniit:**
+1. 
+2. 
+3. 
+
+**Erik Leemet:**
+1. 
+2. 
+3. 
+
+**Egle Puppart:**
+1. 
+2. 
+3. 
+
+**Mare Sepaste:**
+1. 
+2. 
+3. 
+
+**Kaarel Kallas:**
+1. 
+2. 
+3. 
 
