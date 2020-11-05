@@ -1,48 +1,50 @@
 # TAHVLI tunniplaan
 #### 2020∕21 projekt nr 2 "TAHVLI tunniplaan" toimus ajavahemikul 04.11 - 06.11.2020.
-# Our team
 
-**_Projektijuht:_**    Robin Kukk TA-19 
+## Our team
+
+**Projektijuht:**    Robin Kukk TA-19 
 
 Meie tiim **"Team4_Projekt2_2020"** koosnes kolmest eraldi väikesest tiimist: FIGMA-tiim, HTML/CSS-tiim, JavaScript-tiim 
 
-**_FIGMA-tiim:_**
+**FIGMA-tiim:**
 
- - **_Tiimi juht:_** Andra Vabar TA-20
- - **_Tiimi liige:_** Kevin Rull TAK-19
- - **_Tiimi liige:_** Marcus Riisik TAK-20
+ - **Tiimi juht:** Andra Vabar TA-20
+ - **Tiimi liige:** Kevin Rull TAK-19
+ - **Tiimi liige:** Marcus Riisik TAK-20
 
 
-**_HTML/CSS-tiim:_** 
+**HTML/CSS-tiim:** 
 
- - **_Tiimi juht:_** Erkki Tambaum TAK-18
- - **_Tiimi liige:_** Andrus Pajuniit TA-20
- - **_Tiimi liige:_** Erik Leemet TAK-20
- - **_Tiimi liige:_** Ingmar Treiberk TA-19
+ - **Tiimi juht:** Erkki Tambaum TAK-18
+ - **Tiimi liige:** Andrus Pajuniit TA-20
+ - **Tiimi liige:** Erik Leemet TAK-20
+ - **Tiimi liige:** Ingmar Treiberk TA-19
  
  
-**_JavaScript-tiim:_** 
+**JavaScript-tiim:** 
 
- - **_Tiimi juht:_** Robin Kukk TA-19
- - **_Tiimi liige:_** Egle Puppart TA-19
- - **_Tiimi liige:_** Mare Sepaste TA-20
- - **_Tiimi liige:_** Kaarel Kallas TAK-20
+ - **Tiimi juht:** Robin Kukk TA-19
+ - **Tiimi liige:** Egle Puppart TA-19
+ - **Tiimi liige:** Mare Sepaste TA-20
+ - **Tiimi liige:** Kaarel Kallas TAK-20
  
  
-**Github admins:** Erkki Tambaum, Robin Kukk, Andra Vabar
+**Github adminnid:** Erkki Tambaum, Robin Kukk, Andra Vabar
 
 
 ## Kust me pärit oleme?
-All the team members are from Estonia and are learning in Kuressaare Regional Training Centre.
-Our speciality is software developer.
+Kõik tiimi liikmed on pärit Eestist ning õpivad Kuressaare Ametikoolis tarkvara arenduse erialal.
 ​
 
-## Projekti idee
+## Projekti idee ja eesmärk
 ​
-Our goal is to upgrade the commonly used timetable of TAHVEL which has many disadvantages in terms of user-friendlyness, design, and functionality. The purpose of the project is to develop a better version of the TAHVEL, which would work both in the mobile device and desktop.
+Projekti eesmärk oli TAHVLI tunniplaani mobiilivaate parandamine, millega kaasnes kogu tunniplaani kujundamine ja disainimine Figmas ning seejäre ka toodangusse viimine, kasutades HTML/CSS-i ja JavaScripti.
+Figma puhul oli eesmärk tundma õppida selle programmi funktsionaalsust ning kasulikkust. Paralleelelt kujudusprotessiga oli vaja kirjutada koodi ka HTML/CSS-s ja JavaScript-s, lisades juurde nüansse ning elemente, mis seati ette projekti lähteülesandes.
 
 ## Lingid
 ​
-[Figma](https://www.figma.com/file/NFHuAEc0CIifLXgy5Ux3En/tahvel2.0?node-id=0%3A1)
+[Figma](https://www.figma.com/file/WhXNiN3nXtIKmYVmWk4ear/TA-Projekt__20-2__Tunniplaan-wireframe?node-id=6%3A18)
+[Zone server] ()
 
 
