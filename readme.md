@@ -19,7 +19,8 @@ Meie tiim **"Team4_Projekt2_2020"** koosnes kolmest eraldi väikesest tiimist: F
  - **Tiimi juht:** Erkki Tambaum TAK-18
  - **Tiimi liige:** Andrus Pajuniit TA-20
  - **Tiimi liige:** Erik Leemet TAK-20
- - **Tiimi liige:** Ingmar Treiberk TA-19
+ - **Tiimi liige:** Ingmar Treiberk TA-19 (ülejooksik FIGMA tiimist) - passiivne liige, kes ei kontakteerunud tiimiga, hoolimata tiimi-poolsetest püüdlustest
+ - **Tiimi liige:** Siiri Selberg TAK-20 - passiivne liige, kes kadus ära projekti esimesel päeval
  
  
 **JavaScript-tiim:** 
@@ -39,8 +40,8 @@ Kõik tiimi liikmed on pärit Eestist ning õpivad Kuressaare Ametikoolis tarkva
 
 ## Projekti idee ja eesmärk
 ​
-Projekti eesmärk oli TAHVLI tunniplaani mobiilivaate parandamine, millega kaasnes kogu tunniplaani kujundamine ja disainimine Figmas ning seejäre ka toodangusse viimine, kasutades HTML/CSS-i ja JavaScripti.
-Figma puhul oli eesmärk tundma õppida selle programmi funktsionaalsust ning kasulikkust. Paralleelelt kujudusprotessiga oli vaja kirjutada koodi ka HTML/CSS-s ja JavaScript-s, lisades juurde nüansse ning elemente, mis seati ette projekti lähteülesandes.
+Projekti eesmärk oli TAHVLI tunniplaani mobiilivaate parandamine, millega kaasnes kogu tunniplaani kujundamine ja disainimine Figmas ning seejärel ka toodangusse viimine, kasutades HTML/CSS-i ja JavaScripti.
+Figma puhul oli eesmärk tundma õppida selle programmi funktsionaalsust ning kasulikkust. Paralleelselt kujudusprotessiga oli vaja kirjutada koodi ka HTML/CSS-s ja JavaScript-s, lisades juurde nüansse ning elemente, mis seati ette projekti lähteülesandes.
 
 ## Lingid
 ​
