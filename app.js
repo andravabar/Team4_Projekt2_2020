@@ -1,5 +1,5 @@
-let currentclass = 3148
-let currentweek = 10
+let currentclass = 3152
+let currentweek = 9
 let currentday = 0
 const arrow_forward = document.getElementById('arrow_forward')
 const classContainer = document.getElementById('root')
@@ -83,8 +83,8 @@ function getinfo() {
                 classEnd = (currentData.date.split("T")[0] + "T" + currentData.timeEnd)
                 console.log(classStart, classEnd)
 
-                if (currentDate > classStart && currentDate < classEnd) {
-                    titleDiv.style.background = "yellow";
+                if (currentDate > new Date(classStart) && currentDate < new Date(classEnd)) {
+                    titleDiv.style.background = "#FFE55F"
                 }
 
 

@@ -34,8 +34,13 @@
 }
   body {
   background: #D1F0FF;
+  font-family: 'Nunito', sans-serif;
+
   }
 
+.className {
+  font-weight: bold;
+}
 
 .grid-pancake {
   display: grid;
@@ -146,4 +151,8 @@ footer {
 
 .weekdays {
   scroll-margin: 35px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
 }
