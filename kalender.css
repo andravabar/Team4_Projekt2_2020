@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+
+    /* 08.30-10.00 */
+body, p, a {
+    font-family: 'Nunito Sans', sans-serif;
+
+
+}
+
+.header {
+    display: flex;
+    background: #66CCFF;
+    height:30px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    font-size: 0.9rem;
+    z-index: 101;
+
+
+}
+.weekselect , .weekselect i {
+    margin-left: 10px;
+    align-items: center;
+    vertical-align: middle;
+
+}
+
+.calendar {
+    margin-right: 1em;
+
+}
+.lisa {
+    color: blanchedalmond;
+    background-color: black
+}
+.sisukast {
+    margin-top: 32px;
+    padding: 3%;
+    height: 1000px;
+}
+
+.flex-container-week {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 30px;
+  background-color: #D1F0FF;
+  z-index: 100;
+}
+
+.flex-container-week > div {
+  background-color: #D1F0FF;
+  width: 20%;
+  margin: 2%;
+  text-align: center;
+  line-height: 65px;
+  font-size: 30px;
+  border-radius: 6px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    padding: 0.5rem 0;
+    bottom: 0;
+    background-color: rgb(63, 62, 62);
+  }
+  
+  .footerSearch {
+    display: grid;
+    grid-template-columns: max-content auto max-content;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    background-color: rgb(70, 70, 70);
+    border-radius: 0.5rem;
+  }
+  
+  .footerSearch * {
+    color: white;
+  }
+  
+  .footerSearch .star {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .footerSearch input {
+     background: transparent;
+     padding: 0.5rem;
+     border: none;
+     margin: 0 0.75rem;
+  }
+  
+  .footerSearch input:focus{
+    outline: none;
+  }
+
+.weekview {
+    background-color: #D1F0FF;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 110px 0;
+
+
+}
+
+.weekday {
+    width: 100%;
+    margin: 3px;
+    overflow: hidden;
+}
+
+.weekday > div{
+    background-color: #66CCFF;;
+    font-size: 0.75rem;
+    color: cornsilk;
+    margin-bottom: 2px;
+    height: 90px;
+    border-radius: 6px;
+
+}
+
+.weekday > div > span {
+    padding: 7px;
+    display: block;
+
+}
+
+.timeline {
+    width: 15%;
+    margin: 3px 0;
+}
+
+.timeline > div {
+    height: 90px;
+    text-align: right;
+    margin-bottom: 2px;
+    font-size: 0.75rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.timeline > div > span {
+
+}
+
+.paus15 {
+    height: 15px  !important;
+    opacity: 0.5;
+}
+
+.paus60 {
+
+    height: 60px  !important;
+    opacity: 0.5
+
+}
+
+.dayheader {
+margin: 3px 0 !important;
+width: 15% !important;
+background-color: #D1F0FF;
+
+
+
+}
