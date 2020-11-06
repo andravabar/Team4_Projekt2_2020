@@ -98,7 +98,7 @@ Figma puhul oli eesmärk tundma õppida selle programmi funktsionaalsust ning ka
 3. 
 
 **Kaarel Kallas:**
-1. 
-2. 
-3. 
+1. Oleks tahtnud, ma ei oska javascripti.
+2. Vaatamine/kuulamine mida tiim teeb.
+3. HTML/CSS muutmine javascriptiga.
 
