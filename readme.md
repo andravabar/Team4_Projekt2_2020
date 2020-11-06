@@ -88,14 +88,14 @@ Figma puhul oli eesmärk tundma õppida selle programmi funktsionaalsust ning ka
 3. 
 
 **Egle Puppart:**
+1. Ma võib olla oleks soovinud olla pigem Figma v html grupis, sest Javascript on minu jaoks veel pisut keeruline, oleksin saanud võib olla pisut kasulikum meeskonna jaoks olla :)
+2. Jälle sai õpitud kuidas väga erineva tausta ja vanusega grupis toime tulla ja omavahel suhelda. Lisaks sai selgeks kuidas mitte käituda kui peaks tulevikus grupi tööajal remoteis osalema.
+3. Javascript on endiselt veel pisut segane, aga kindlasti palju selgem tänu Robinile, lisaks sai uuesti meeldetuletatud Ubuntu ja git push, branchimine.
+
+**Mare Sepaste:**
 1. 
 2. 
 3. 
-
-**Mare Sepaste:**
-1. Oleksin eelistanud HTML/CSS tiimi.
-2. Meeskonnatöö.
-3. Githubi kasutamine, natuke Javascripti.
 
 **Kaarel Kallas:**
 1. 
