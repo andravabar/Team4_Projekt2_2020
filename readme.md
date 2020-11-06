@@ -3,7 +3,7 @@
 
 ## Meie tiim
 
-**Projektijuht:**    Robin Kukk TA-19 
+**Projektijuht:**    Robin Kukk TAK-19 
 
 Meie tiim **"Team4_Projekt2_2020"** koosnes kolmest eraldi väikesest tiimist: FIGMA-tiim, HTML/CSS-tiim, JavaScript-tiim 
 
@@ -24,7 +24,7 @@ Meie tiim **"Team4_Projekt2_2020"** koosnes kolmest eraldi väikesest tiimist: F
  
 **JavaScript-tiim:** 
 
- - **Tiimi juht:** Robin Kukk TA-19
+ - **Tiimi juht:** Robin Kukk TAK-19
  - **Tiimi liige:** Egle Puppart TA-19
  - **Tiimi liige:** Mare Sepaste TA-20
  - **Tiimi liige:** Kaarel Kallas TAK-20
@@ -44,7 +44,8 @@ Figma puhul oli eesmärk tundma õppida selle programmi funktsionaalsust ning ka
 
 ## Lingid
 ​
- - [Figma](https://www.figma.com/file/WhXNiN3nXtIKmYVmWk4ear/TA-Projekt__20-2__Tunniplaan-wireframe?node-id=6%3A18)
+ - [Figma 1](https://www.figma.com/file/WhXNiN3nXtIKmYVmWk4ear/TA-Projekt__20-2__Tunniplaan-wireframe?node-id=6%3A18)
+ - [Figma 2 - Marcus Riisiku eraprojekt](https://www.figma.com/file/bFWQfRtnwfACL3GJKgKhwZ/V%C3%A4ike-tunniplaani-stiilimuudatuse-test-Marcus?node-id=6%3A18)
  - [Zone server] ()
 
 ## Küsimused projekti kohta
@@ -68,27 +69,24 @@ Figma puhul oli eesmärk tundma õppida selle programmi funktsionaalsust ning ka
 3. Sain figmas rohkem kogemusi ja teada kuidas asjad töötavad paremini.
 
 **Marcus Riisik:**
-1. 
-2. 
-3. 
+1. Ei
+2. Sain teada, et kui enda rühmakaaslasi tiimis ei ole, on töötamine raskem. 
+3. Ma sain teada, et Figmas on olemas Background Bluri valik.
 
 **Erkki Tambaum:**
 1. Ei oleks tahtnud kuna sain harjutada rohkem HTMLi ja CSSi
-
 2. Tiimitöö ja abistamisoskused arenesid paremaks
-
 3. Õppisin responsive media queridest CSS-is ja harjutasin enda flexboxi oskuseid
 
-
 **Andrus Pajuniit:**
-1. 
-2. 
-3. 
+1. HTML/CSS gruppi määramine on minu puhul väga õige otsus. Javascript on hetkel väga tume maa ja kujunduse puhul midagi juurde õppida oleks vähetõenäoline. Kiidan otsustajaid.
+2. Värskendav oli kogeda meeskonnas töötamist mitte juhina. Sain keskenduda konkreetse ülesande lahendamisele, mitte tegeleda tiimi küsimustega. 
+3. Õppisin flexi ja cssi värvimuutujate kasutust, minu jaoks väga hariv projekt seekord.
 
 **Erik Leemet:**
-1. 
-2. 
-3. 
+1. Ei oleks
+2. Õppisin tegema koostööd tiimiga.
+3. Õppisin kuidas ubuntus avada faile ja kuidas cssi kasutada.
 
 **Egle Puppart:**
 1. Ma võib olla oleks soovinud olla pigem Figma v html grupis, sest Javascript on minu jaoks veel pisut keeruline, oleksin saanud võib olla pisut kasulikum meeskonna jaoks olla :)
@@ -96,12 +94,13 @@ Figma puhul oli eesmärk tundma õppida selle programmi funktsionaalsust ning ka
 3. Javascript on endiselt veel pisut segane, aga kindlasti palju selgem tänu Robinile, lisaks sai uuesti meeldetuletatud Ubuntu ja git push, branchimine.
 
 **Mare Sepaste:**
-1. 
-2. 
-3. 
+1. Oleksin eelistanud HTML/CSS tiimi.
+2. Meeskonnatöö.
+3. Githubi kasutamine, natuke Javascripti.
 
 **Kaarel Kallas:**
-1. 
-2. 
-3. 
+1. Oleks tahtnud, ma ei oska javascripti.
+2. Vaatamine/kuulamine mida tiim teeb.
+3. HTML/CSS muutmine javascriptiga.
+
 
