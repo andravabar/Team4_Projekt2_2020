@@ -12,21 +12,21 @@
 
 <body class="grid-pancake">
     <header>
-      <div class="weekselect"><a href="#"><i class="material-icons">arrow_back</i></a>
-        Nädal | 02.11 - 06.11
-        <a href=""><i class="material-icons">arrow_forward</i></a>
-      </div>
+        <div class="weekselect"><a onclick="prevWeek()"><i class="material-icons">arrow_back</i></a>
+            Nädal | 02.11 - 06.11
+            <a onclick="nextWeek()"><i class="material-icons" id="arrow_forward">arrow_forward</i></a>
+        </div>
    
-      <div class="calendar"><a href="#"><i class="material-icons">date_range</i></a></div>
+      <div class="calendar"><a href="kalender.html"><i class="material-icons">date_range</i></a></div>
     </header>
     <main>
-      <div class="flex-container">
-        <div>E</div>
-        <div>T</div>
-        <div>K</div>
-        <div>N</div>
-        <div>R</div>
-      </div>
+        <div class="flex-container">
+            <div onclick="scrolltoE()">E</div>
+            <div onclick="scrolltoT()">T</div>
+            <div onclick="scrolltoK()">K</div>
+            <div onclick="scrolltoN()">N</div>
+            <div onclick="scrolltoR()">R</div>
+        </div>
       <div class="kast" id="root"></div>
       <div id="selectDiv"></div>
       <input type="text" id="myInput" onkeyup="search()" placeholder="Search for names..">
