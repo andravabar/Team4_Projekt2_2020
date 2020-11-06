@@ -54,9 +54,10 @@ Figma puhul oli eesmärk tundma õppida selle programmi funktsionaalsust ning ka
  - Üks tehniline oskus, mida õppisin ja endas arendasin
 
 **Robin Kukk:**
-1. 
-2. 
-3. 
+1. Oleks pigem olnud lihtsalt koodija ja mitte liider
+2. Arendasin tiimijuhtumise oskust ja koostööd suuremas tiimis.
+3. Tuletasin meelde, kuidas javascriptis API'd töötavad, ning õppisin kuidas kellaaja formaate kasutada javascriptis
+
 
 **Andra Vabar:**
 1. Ei oleks tahtnud, Figma sobis hästi.
