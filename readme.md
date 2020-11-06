@@ -73,9 +73,9 @@ Figma puhul oli eesmärk tundma õppida selle programmi funktsionaalsust ning ka
 3. 
 
 **Erkki Tambaum:**
-1. 
-2. 
-3. 
+1. Ei oleks tahtnud kuna sain harjutada rohkem HTMLi ja CSSi
+2. Tiimitöö ja abistamisoskused arenesid paremaks
+3. Õppisin responsive media queridest CSS-is ja harjutasin enda flexboxi oskuseid
 
 **Andrus Pajuniit:**
 1. 
