@@ -47,7 +47,7 @@ Figma puhul oli eesmärk tundma õppida selle programmi funktsionaalsust ning ka
 ​
  - [Figma 1](https://www.figma.com/file/WhXNiN3nXtIKmYVmWk4ear/TA-Projekt__20-2__Tunniplaan-wireframe?node-id=6%3A18)
  - [Figma 2 - Marcus Riisiku eraprojekt](https://www.figma.com/file/bFWQfRtnwfACL3GJKgKhwZ/V%C3%A4ike-tunniplaani-stiilimuudatuse-test-Marcus?node-id=6%3A18)
- - [Zone server] ()
+ - [Zone server] (https://tak18tambaum.itmajakas.ee/tiim4/)
 
 ## Küsimused projekti kohta
  - Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas
