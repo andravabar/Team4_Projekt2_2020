@@ -1,32 +1,37 @@
 let currentclass = 3148
-let input = document.getElementById('myInput');
-let currentweek = 9
+let currentweek = 10
 let currentday = 0
 const arrow_forward = document.getElementById('arrow_forward')
 const classContainer = document.getElementById('root')
-const eBox = document.getElementById('E')
-const tBox = document.getElementById('T')
-const kBox = document.getElementById('K')
-const nBox = document.getElementById('N')
-const rBox = document.getElementById('R')
 var days = ["Pühapäev", "Esmaspäev", "Teisipäev", "Kolmapäev", "Neljapäev", "Reede", "Laupäev"];
+let eBox = document.getElementById(1)
+let tBox = document.getElementById(2)
+let kBox = document.getElementById(3)
+let nBox = document.getElementById(4)
+let rBox = document.getElementById(5)
+
 
 
 
 function scrolltoE() {
-    eBox.scrollIntoView(true);
+    let eBox = document.getElementById(1)
+    eBox.scrollIntoView();
 }
 function scrolltoT() {
-    tBox.scrollIntoView(true);
+    let tBox = document.getElementById(2)
+    tBox.scrollIntoView();
 }
 function scrolltoK() {
-    kBox.scrollIntoView(true);
+    let kBox = document.getElementById(3)
+    kBox.scrollIntoView();
 }
 function scrolltoN() {
-    nBox.scrollIntoView(true);
+    let nBox = document.getElementById(4)
+    nBox.scrollIntoView();
 }
 function scrolltoR() {
-    rBox.scrollIntoView(true);
+    let rBox = document.getElementById(5)
+    rBox.scrollIntoView();
 }
 
 
@@ -61,10 +66,15 @@ function getinfo() {
 
                 dateDay = date.getDay()
                 let titleDiv = document.createElement('div')
+                let weekdayDiv = document.createElement('div')
                 titleDiv.innerHTML = ""
                 if (currentday != dateDay) {
                     currentday = dateDay
-                    classContainer.append(days[dateDay])
+                    weekdayDiv.innerHTML = '<div id="' + dateDay + '">' + days[dateDay] + '</div>'
+                    console.log(dateDay)
+                    classContainer.append(weekdayDiv)
+
+
                 }
                 titleDiv.className = "container"
                 titleDiv.innerHTML = '<div class="info">' + '<div class="classtime">' + currentData.timeStart + ' - ' + currentData.timeEnd + '</div>' + '<div class="classname">' + currentData.nameEn + '</div>' + '<div class="classteacher">' + currentData.teachers[0].name + '</div>' + '</div>'
@@ -100,16 +110,14 @@ function search() {
             const fuse = new Fuse(data, options)
 
             const result = fuse.search('andrus')
+            console.log(result)
 
 
         })
 }
 
 
+
+
 search();
 getinfo();
-
-function dateCalc(classStart, classEnd) {
-
-
-}
