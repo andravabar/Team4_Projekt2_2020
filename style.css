@@ -72,7 +72,7 @@ body {
 }
 
 .flex-container > div {
-  width: 95px;
+  width: 5px;
   margin: 10px;
   padding: 5px;
   text-align: center;
@@ -99,7 +99,7 @@ footer {
 }
 @media only screen and (max-width: 600px) {
     .kast {
-      width:350px;
+      width:300px;
       margin: auto;
       
     
