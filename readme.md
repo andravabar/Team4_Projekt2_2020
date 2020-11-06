@@ -63,9 +63,9 @@ Figma puhul oli eesmärk tundma õppida selle programmi funktsionaalsust ning ka
 3. Figma tehnilised nüansid, Githubis uue Repository ja projekti loomine, Teamsis uue tiimi loomine
 
 **Kevin Rull:**
-1. 
-2. 
-3. 
+1. Olin Figmaga rahul.
+2. Tiimitöös sain paremaks ja kuidas töötada suuremate ja väiksemate tiimidega.
+3. Sain figmas rohkem kogemusi ja teada kuidas asjad töötavad paremini.
 
 **Marcus Riisik:**
 1. 
@@ -73,9 +73,9 @@ Figma puhul oli eesmärk tundma õppida selle programmi funktsionaalsust ning ka
 3. 
 
 **Erkki Tambaum:**
-1. Ei oleks tahtnud kuna sain harjutada rohkem HTMLi ja CSSi
-2. Tiimitöö ja abistamisoskused arenesid paremaks
-3. Õppisin responsive media queridest CSS-is ja harjutasin enda flexboxi oskuseid
+1. 
+2. 
+3. 
 
 **Andrus Pajuniit:**
 1. 
@@ -98,7 +98,7 @@ Figma puhul oli eesmärk tundma õppida selle programmi funktsionaalsust ning ka
 3. 
 
 **Kaarel Kallas:**
-1. Oleks tahtnud, ma ei oska javascripti.
-2. Vaatama/kuulama, mida tiim teeb.
-3. HTML/CSS muutmine javascriptiga.
+1. 
+2. 
+3. 
 
