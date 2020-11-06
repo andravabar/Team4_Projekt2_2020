@@ -1,6 +1,4 @@
-body {
-    background: #D1F0FF;
-}
+
 .container{	
     display: flex;	
     flex-direction: column;	
@@ -17,11 +15,6 @@ body {
 
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    
-    }
 
 .header {
     display: flex;
@@ -39,64 +32,7 @@ body {
 
 
 }
-.weekselect , .weekselect i {
-    margin-left: 10px;
 
-    align-items: center;
-    vertical-align: middle;
-}
-
-.calendar {
-
-    margin-right: 10px;
-
-}
-.lisa {
-    color: blanchedalmond;
-    background-color: black
-}
-.sisukast {
-    margin-top: 32px;
-    padding: 3%;
-    height: 1000px;
-    background-color: brown;
-}
-
-.flex-container {
-  display: flex;
-  margin-top: 32px;
-  padding: 3%;
-  align-items: center;
-  justify-content: center;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.flex-container > div {
-  width: 5px;
-  margin: 10px;
-  padding: 5px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-}
-
-
-footer { 
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-  } 
-  
-.footer-text {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-    height:40px;
-  background-color: rgb(63, 62, 62);
-  color: white;
-  text-align: center;
-}
 @media only screen and (max-width: 600px) {
     .kast {
       width:300px;
@@ -105,3 +41,116 @@ footer {
     
   }
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-pancake {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+header {
+  height: 32px;
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  background-color: bisque;
+
+}
+
+.weekselect,
+.weekselect i {
+  margin-left: 10px;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.calendar {
+  margin-right: 10px;
+}
+
+.lisa {
+  color: blanchedalmond;
+  background-color: black;
+}
+
+.sisukast {
+  margin-top: 32px;
+  padding: 3%;
+  height: 1000px;
+  background-color: brown;
+}
+
+.flex-container {
+  display: flex;
+  margin-top: 32px;
+  padding: 3%;
+  align-items: center;
+  border-radius: 50px;
+  border-color: black;
+  justify-content: center;
+  margin: center;
+  flex-wrap: wrap;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 75px;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  padding: 0.5rem 0;
+  background-color: rgb(63, 62, 62);
+}
+
+.footerSearch {
+  display: grid;
+  grid-template-columns: max-content auto max-content;
+  padding: 0.5rem 1rem;
+  align-items: center;
+  background-color: rgb(70, 70, 70);
+  border-radius: 0.5rem;
+}
+
+.footerSearch * {
+  color: white;
+}
+
+.footerSearch .star {
+  width: 40px;
+  height: 40px;
+}
+
+.footerSearch input {
+   background: transparent;
+   padding: 0.5rem;
+   border: none;
+   margin: 0 0.75rem;
+}
+
+.footerSearch input:focus{
+  outline: none;
+}
+
+.kast {
+  width: 500px;
+  margin: auto;
+}
+

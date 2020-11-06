@@ -10,48 +10,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap" rel="stylesheet">
 </head>
 
-<body>
-
-    <div class="flex-container" style="font-family: Nunito Sans; font-style: normal; font-weight: normal;">
+<body class="grid-pancake">
+    <header>
+      <div class="weekselect"><a href="#"><i class="material-icons">arrow_back</i></a>
+        Nädal | 02.11 - 06.11
+        <a href=""><i class="material-icons">arrow_forward</i></a>
+      </div>
+   
+      <div class="calendar"><a href="#"><i class="material-icons">date_range</i></a></div>
+    </header>
+    <main>
+      <div class="flex-container">
         <div>E</div>
         <div>T</div>
         <div>K</div>
         <div>N</div>
         <div>R</div>
-    </div>
-    <div class="kast" id="root" style="font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;">
-    </div>
-
-
-    <div class="header">
-        <div class="weekselect"><a href="#"><i class="material-icons">arrow_back</i></a>
-            Nädal | 02.11 - 06.11
-            <a href=""><i class="material-icons">arrow_forward</i></a>
-        </div>
-        <!-- <div class="lisa">lisa</div> -->
-        <div class="calendar"><a href="#"><i class="material-icons">date_range</i></a></div>
-    </div>
-
-    <div id="selectDiv"></div>
-    <input type="text" id="myInput" onkeyup="search()" placeholder="Search for names..">
-
-
-
-
-
-
-   
-        
-        <footer class="footer-text">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Empty_Star.svg"
-            style="width: 40px; height: 40px;">
-            <a href="#">
-                <img src="https://img.icons8.com/metro/26/000000/search.png" />
-            </a>
-        </footer>
+      </div>
+      <div class="kast" id="root"></div>
+      <div id="selectDiv"></div>
+      <input type="text" id="myInput" onkeyup="search()" placeholder="Search for names..">
+    </main>
+    <footer>
+      <div class="footerSearch">
+        <i class="far fa-star"></i>
+        <input type="text" placeholder="Vaate nimetus (Klass)">
+        <i class="fas fa-search"></i>
+      </div>
+    </footer>
 
 
 
