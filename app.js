@@ -15,23 +15,23 @@ let rBox = document.getElementById(5)
 
 function scrolltoE() {
     let eBox = document.getElementById(1)
-    eBox.scrollIntoView();
+    eBox.scrollIntoView({ behavior: 'smooth' });
 }
 function scrolltoT() {
     let tBox = document.getElementById(2)
-    tBox.scrollIntoView();
+    tBox.scrollIntoView({ behavior: 'smooth' });
 }
 function scrolltoK() {
     let kBox = document.getElementById(3)
-    kBox.scrollIntoView();
+    kBox.scrollIntoView({ behavior: 'smooth' });
 }
 function scrolltoN() {
     let nBox = document.getElementById(4)
-    nBox.scrollIntoView();
+    nBox.scrollIntoView({ behavior: 'smooth' });
 }
 function scrolltoR() {
     let rBox = document.getElementById(5)
-    rBox.scrollIntoView();
+    rBox.scrollIntoView({ behavior: 'smooth' });
 }
 
 
@@ -70,7 +70,7 @@ function getinfo() {
                 titleDiv.innerHTML = ""
                 if (currentday != dateDay) {
                     currentday = dateDay
-                    weekdayDiv.innerHTML = '<div id="' + dateDay + '">' + days[dateDay] + '</div>'
+                    weekdayDiv.innerHTML = '<div class="weekdays" id="' + dateDay + '">' + days[dateDay] + '</div>'
                     console.log(dateDay)
                     classContainer.append(weekdayDiv)
 

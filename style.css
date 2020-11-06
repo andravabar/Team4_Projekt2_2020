@@ -73,12 +73,12 @@
 }
 
 
-footer { 
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-  } 
-  
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 .footer-text {
   position: fixed;
   left: 0;
@@ -90,6 +90,9 @@ footer {
   text-align: center;
 
 }
+.weekdays {
+    scroll-margin: 35px;
+  }
 <<<<<<< HEAD
 =======
 
