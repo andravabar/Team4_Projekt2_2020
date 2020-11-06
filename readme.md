@@ -93,12 +93,12 @@ Figma puhul oli eesmärk tundma õppida selle programmi funktsionaalsust ning ka
 3. 
 
 **Mare Sepaste:**
+1. Oleksin eelistanud HTML/CSS tiimi.
+2. Meeskonnatöö.
+3. Githubi kasutamine, natuke Javascripti.
+
+**Kaarel Kallas:**
 1. 
 2. 
 3. 
-
-**Kaarel Kallas:**
-1. Oleks tahtnud, ma ei oska javascripti.
-2. Vaatamine/kuulamine mida tiim teeb.
-3. HTML/CSS muutmine javascriptiga.
 
